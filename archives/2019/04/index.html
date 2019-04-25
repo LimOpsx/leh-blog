@@ -612,14 +612,7 @@
 
 <!-- 新增访客统计代码 -->
 
-<div class="busuanzi-count">
-    <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    <span class="site-uv">
-      <i class="fa fa-user"></i>
-      访问用户： <span class="busuanzi-value" id="busuanzi_value_site_uv"></span> 人
-    </span>
-    <div class="powered-by"></div>
-</div>
+
 <!-- 新增访客统计代码 END-->
 
 <span id="sitetime"></span>
@@ -646,7 +639,7 @@
 		minutes - 0-59之间的整数，做为date对象的分钟数
 		seconds - 0-59之间的整数，做为date对象的秒数
 		microseconds - 0-999之间的整数，做为date对象的毫秒数 */
-		var t1 = Date.UTC(2019,04,26,02,3,00); //北京时间2018-2-13 00:00:00
+		var t1 = Date.UTC(2019,04,26,02,30,00); //北京时间2018-2-13 00:00:00
 		var t2 = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond);
 		var diff = t2-t1;
 		var diffYears = Math.floor(diff/years);
